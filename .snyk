@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.11.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:semver:20150403':
+    - component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
+    - component-build > component-builder > component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
+    - component-outdated2 > component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
+    - component-pin > component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
+    - component-resolver > component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
+    - component-updater > component-flatten > semver:
+        patched: '2018-04-26T08:10:04.134Z'
